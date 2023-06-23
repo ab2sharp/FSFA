@@ -23,7 +23,7 @@ Data files to be added shortly.
 
 This contains code related to unsupervised clustering done on baseball pitch trajectories.
 
-  The file `scrape_clean_statcast.R` contains functions and code from getting and cleaning the data from statcast.
+  The file `scrape_clean_statcast.R` contains functions and code for getting and cleaning the data from statcast.
 
   The file `get_raw_trajectories.R` grabs all pitcher/pitchtype combinations that were seen at least 100 times in a season and collects the associated data.
 
