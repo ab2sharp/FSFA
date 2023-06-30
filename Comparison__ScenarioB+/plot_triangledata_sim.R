@@ -1,10 +1,11 @@
 #Analyze tridata simulation
-setwd("~/Documents/unidrive/ResearchDocuments/Research/FunMatNorm/ComparisonStudy")
 library(Rfast)
-load("sim_tridat_results.RData")
 library(tibble)
 library(magrittr)
 library(ggthemes)
+
+#Load data
+load("sim_tridat_results.RData")
 
 # Helpers -----------------------------------------------------------------
 
