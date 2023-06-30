@@ -165,47 +165,4 @@ rm(cls)
 save(res, file="sim_tridat_results.RData")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#test2 = sim_tridat(90053)
-
-# #Test
-# #Generate data
-# d1 = genbouvdat(seed=90053)
-# d2 = genbouvdat(scale=-1,seed=90053)
-# 
-# dtot = list(
-#   "fundat"=c(d1$fundat, d2$fundat), 
-#   "spars"=d1$spars
-# )
-# 
-# psim = length(dtot$fundat)
-# bsim = 25
-# nsim = 1e3
-# 
-# plot_mat(
-#   fdat    = dtot$fundat[[3]], 
-#   ti      = dtot$spars$time, 
-#   nobs    = dtot$spars$n, 
-#   strname = "funs3"
-# )
-# plot_mat(
-#   fdat    = dtot$fundat[[4]], 
-#   ti      = dtot$spars$time, 
-#   nobs    = dtot$spars$n, 
-#   strname = "funs4"
-# )
+# //
