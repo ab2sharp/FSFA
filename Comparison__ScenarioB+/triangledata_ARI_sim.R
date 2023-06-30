@@ -1,6 +1,5 @@
 # Run simulation on their data
 #Run targets and analyze the results
-setwd("/u/ab2sharp/ResearchDocuments/Research/FunMatNorm/ComparisonStudy/github_version/")
 library(fda)
 library(funHDDC)
 library(purrr)
