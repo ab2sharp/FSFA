@@ -28,3 +28,12 @@ This contains code related to unsupervised clustering done on baseball pitch tra
   The file `get_raw_trajectories.R` grabs all pitcher/pitchtype combinations that were seen at least 100 times in a season and collects the associated data.
 
 More to come soon.
+
+
+## Comparison: Scenario B+
+
+  The folder `R` contains two files, `comps_funs.R` and `frankenclustAuto.R`, which contain the functions used for running the simulation.
+  The file `triangledata_ARI_sim.R` runs the simulation, and produces the file `sim_tridat_results.RData`
+  There will be an additional file which runs the simulation for the functional k-means approach as well. This file produces `sim_tridata_kmeans.RData`
+  The file `plot_triangledata_sim.R` produces the histogram seen in the paper
+  
